@@ -60,3 +60,15 @@ def update_value(input_data):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
+
+'''
+Closing comments: Having the simple input thing on top that can update the data automatically is very powerful. 
+Also, if I am to generate data for various machine learning problems:
+1. I can set the input field as dropdown with values auto-populated by the various names
+2. I can create a checkbox/radio-box/selection box to plot all the required things fast 
+3. I can auto-scan files that don't fit some 'pattern' then focus on weeding the data
+4. Chart the PCA for the various datapoints and 
+5. Chart and save data as matplotlib 
+
+'''
